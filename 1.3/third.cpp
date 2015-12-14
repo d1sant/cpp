@@ -1,5 +1,12 @@
-//
-// Created by Dmitry Palaznik on 12/2/15.
-//
+#include <iostream>
+using namespace std;
 
-#include "third.h"
+int main() {
+    int v, t, g  = 10;
+    cin >> t;
+    v = g * t;
+    int vm = v / 2;
+    int s = vm * t;
+    cout << s;
+    return 0;
+}

@@ -1,5 +1,10 @@
-//
-// Created by Dmitry Palaznik on 12/2/15.
-//
+#include <iostream>
+using namespace std;
 
-#include "second.h"
+int main() {
+    int a, b;
+    cin >> a >> b;
+    cout << a << " + " << b << " = " << a + b << endl;
+    cout << a << " - " << b << " = " << a - b;
+    return 0;
+}
